@@ -1,0 +1,643 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <style>
+        .Flipcart{
+            width: 330px;
+            height: 45px;
+            border: none;
+            background-color: #ffe51f;
+            /* text-align: center; */
+            font-weight: bold;
+            padding-top: -10px;
+            font-style: italic;
+            padding-bottom: 10px;
+            margin-left: -4px;
+        }
+        .Travel{
+            width: 330px;
+            height: 45px;
+            border: none;
+            background-color: #ffffff;
+            /* text-align: center; */
+            font-weight: bold;
+            padding-top: -10px;
+            font-style: italic;
+            padding-bottom: 10px;
+            margin-left: -4px;
+        }
+        .location{
+            float: right;
+            font-family: sans-serif;
+            font-weight: bold;
+        }
+        .search{
+            height: 40px;
+            width: 650px;
+            margin-left: 10px;
+            border: 2px solid #2ea1ff;
+            border-radius: 15px;
+            font-size: 15px;
+            padding-left: 30px;
+        }
+        .underline:hover{
+            text-decoration: underline;
+        }
+        .refresh{
+            background-color: #427ae9;
+            color: white;
+            border: none;
+            padding: 15px 30px 15px 30px;
+            border-radius: 25px;
+            display: block;
+            margin: 0 auto;
+            position: sticky;
+            bottom: 40px;
+        }
+    </style>
+    <body>
+        <div style="position: sticky; top: 0px; background-color: white; margin-right: -5px; margin-left: -5px;">
+        <button class="Flipcart"><img src="C:\Users\User\Desktop\Flipkart\flipkart.png" height="40px" class="f">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="margin-top: -30px;"> Flipkart</div></button>
+        <button class="Travel"><img src="https://rukminim1.flixcart.com/fk-p-flap/29/22/image/7ab4040af860941d.png?q=80" height="25px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div style="margin-top: -30px;">Travel</div></button>
+        <p class="location">Location not set <span style="color: #1254e7;">Select delivery location ></span></p>
+        <div style="display: flex; font-family: sans-serif; font-size: 14px;">
+        <input type="text" placeholder="Search for Products,Brands and More" class="search">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Login</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>More</p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <p>Cart</p>
+        </div><br>
+        </div>
+        <div style="width: auto; height: 1px; background-color: #d6d6d6; margin: -10px;"></div><br>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/1010/490/image/0112839093575edc.png?q=80" height="480px" style="margin-top: -9px; margin-left: 10px; border-bottom-left-radius: 20px; border-bottom-right-radius: 20px;">
+        <div style="display: flex; margin-left: 10px; margin-top: 30px;">
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/5dca7713b355df43.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Fashion</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/d7eae409dc461a54.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Travel</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/a080ac3397f3612d.png?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Electronics</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/506347d817d14025.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Home & Kictch..</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/e8bb656b404b6151.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Auto Acc</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/d4d87d1307cd2a29.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Toys, Baby...</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/e1b4ec56637b0ac0.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">GenZ Trends</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/c7f57c3d9a547417.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Next Gen</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div>
+        
+
+
+
+
+        <div style="display: flex; margin-left: 10px; margin-top: 30px;">
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/a6189afdd765a687.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Mobiles</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/f9ebd80a4825f28e.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Food & Health</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/51b0d5f9aabc2462.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Appliances</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/d31d524f681630af.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Beauty</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/9be859f78d39cc22.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Furniture</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/c632b839ac6d183e.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Sports</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/38e2f5617d0edd27.png?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">Flipkart Pay</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/59/59/image/e476bbcf4677c695.jpg?q=80" height="100px">
+                <p style="font-family: sans-serif; font-size: 11px; margin-top: 0px; text-align: center;">SuperCoin</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        </div><br>
+
+
+        <div style="display: flex; margin-left: 10px;">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/5b4bfd7663855c92.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/1518843f795ccfb0.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/66be963ebd63e970.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        </div>
+
+    <div style="background-color: #f75177; border-radius: 20px; padding-bottom: 10px; margin-left: 10px;">
+            <p style="color: white; font-family: sans-serif; font-size: 25px; font-weight: bold; padding-top: 20px; padding-left: 20px; padding-bottom: -10px;">Widest collection</p>
+            <div style="color: black; background-color: white; margin: 10px; border-radius: 20px;">
+                <div style="display: flex; margin-top: -10px;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/cigarette-receptacle/u/a/t/10-dragon-s-ember-01-flamemate-original-imahahu5uphncz2f.jpeg?q=70" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">Best Deals</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Under ₹499</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/trouser/w/u/h/34-tr-dwe-05-avyra-original-imahjx5xhuvtqqpj.jpeg?q=70" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Top Collection</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Under ₹299</p>
+                </div>
+                
+            </div>
+
+            <div style="display: flex;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; padding-bottom: 20px; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/nut-dry-fruit/0/h/5/1-mix-dry-fruit-panchmeva-1kg-jar-1-mason-jar-nature-aahar-original-imah3t4394afuhuh.jpeg?q=90" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">Bestsellers</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Under ₹499</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim2.flixcart.com/image/612/612/xif0q/sari/4/b/l/free-pasarangi-leriya-saree-001-house-of-common-unstitched-original-imahhehygd5fvzpw.jpeg?q=70" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Best Deals</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Under ₹299</p>
+                </div>
+                
+            </div>
+
+            </div>
+        </div><br>
+        <p style="font-family: sans-serif; font-weight: bold; font-size: 22px; padding-left: 10px;">Sponsored</p>
+
+
+
+        <div style="display: flex; margin-left: 10px;">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/4903104125848bd6.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/e9a216958d3de89d.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/186d2f499581efe7.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        </div><br>
+        <div style="display: flex; margin-left: 10px;">
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/fec7b35ea605f39b.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/ad3737a7ad0c8bb3.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <img src="https://rukminim1.flixcart.com/fk-p-flap/220/290/image/0d0bc48e5b7f8502.png?q=80" height="280px" style="border-top-left-radius: 15px; border-top-right-radius: 15px;">
+        </div>
+
+
+
+
+        <div style="background-color: #f75177; border-radius: 20px; padding-bottom: 10px; margin-left: 10px;">
+            <p style="color: white; font-family: sans-serif; font-size: 25px; font-weight: bold; padding-top: 20px; padding-left: 20px; padding-bottom: -10px;">Best Gardgets & Appliances</p>
+            <div style="color: black; background-color: white; margin: 10px; border-radius: 20px;">
+                <div style="display: flex; margin-top: -10px;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/headphone/u/n/8/-original-imahgnf4rwhaefft.jpeg?q=90" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">True Wireless</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 50% Off</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/speaker/mobile-tablet-speaker/c/y/4/m412sp-portable-dynamic-thunder-sound-with-high-bass-original-imahkwqwmyhv32zq.jpeg?q=90" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Speaker</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Speical offer</p>
+                </div>
+                
+            </div>
+
+            <div style="display: flex;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; padding-bottom: 20px; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/watch/y/k/l/rubbers-strap-and-black-dial-stylish-wrist-watches-for-boy-and-original-imagzwp2djzsgwt5.jpeg?q=90" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">Wrist Watches</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 90% Off</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/smartwatch/x/j/s/-original-imah4eddxhvzpxhc.jpeg?q=90" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Smart Watches</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 40% Off</p>
+                </div>
+                
+            </div>
+
+            </div>
+        </div><br>
+
+
+        <div style="background-color: #f75177; border-radius: 20px; padding-bottom: 10px; margin-left: 10px;">
+            <p style="color: white; font-family: sans-serif; font-size: 25px; font-weight: bold; padding-top: 20px; padding-left: 20px; padding-bottom: -10px;">Shop for a Cool Summer</p>
+            <div style="color: black; background-color: white; margin: 10px; border-radius: 20px;">
+                <div style="display: flex; margin-top: -10px;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/shoe/2/z/d/8-rd9931-8-roadster-brown-original-imahkcrjapnu3bvy.jpeg?q=90" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">Men's Casual Shoes</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 70% Off</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/face-wash/v/z/d/200-ocean-for-men-fights-acne-pimple-brighten-skin-all-skin-original-imah5gh63zgy8ph3.jpeg?q=90" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Face Wash</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min.50% Off</p>
+                </div>
+                
+            </div>
+
+            <div style="display: flex;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; padding-bottom: 20px; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/shoe/9/m/s/9-tuper3-9-richerson-white-blue-original-imahhy3jskggfh3p.jpeg?q=90" height="200px" style="margin-left: 90px;">
+                    <p style="font-family: sans-serif;">Men's Sports Shoes</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 70% Off</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/slipper-flip-flop/w/d/l/7-ff-375gry-375gr-footup-grey-green-original-imahgga6fe72hat9.jpeg?q=90" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">Men's Slippers & Flip Flops</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Min. 70% Off</p>
+                </div>           
+            </div>
+            </div>
+        </div><br>
+
+
+        <div style="display: flex; margin-left: 10px;">
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/f1778f3699fd6582.jpg?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">Grocery</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/fa2a3de2c04ceae4.jpg?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">For Gen Z</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/5ec9725ee1bc6137.png?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">Gift Cards</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/f09f93eeb711050d.jpg?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">Sell Phone...</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/be139300ea4da8c9.png?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">BLACK</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/2146fd64b40ea493.jpg?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">SuperC...</p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div>
+                <img src="https://rukminim1.flixcart.com/fk-p-flap/48/48/image/7ee61384db3e3beb.jpg?q=80" height="70px">
+                <p style="font-family: sans-serif; font-size: 12px; font-weight: bold; margin-top: 1px;">Next-Gen</p>
+            </div>
+        </div>
+
+
+
+
+
+        <div style="background-color: #f75177; border-radius: 20px; padding-bottom: 10px; margin-left: 10px;">
+            <p style="color: white; font-family: sans-serif; font-size: 25px; font-weight: bold; padding-top: 20px; padding-left: 20px; padding-bottom: -10px;">Popular nearby</p>
+            <div style="color: black; background-color: white; margin: 10px; border-radius: 20px;">
+                <div style="display: flex; margin-top: -10px;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/pooja-thali-set/z/d/5/no-gs-1q-brs-3cup-panchwala-210-k4489-sigaram-original-imahagcuphm3wfke.jpeg?q=90" height="200px" style="margin-left: 140px;">
+                    <p style="font-family: sans-serif;">Deals You Can't Miss</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">from₹59</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/bulb/x/u/d/-original-imahfjg7b6duj3zz.jpeg?q=90" height="200px" style="margin-left: 130px;">
+                    <p style="font-family: sans-serif;">Bright light, every day</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">from₹49</p>
+                </div>
+                
+            </div>
+
+            <div style="display: flex;">
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; padding-bottom: 20px; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/gas-stove/d/p/r/-original-imahezhkrgduxn8m.jpeg?q=90" height="150px" style="margin-left: 0px;"><br><br><br><br>
+                    <p style="font-family: sans-serif;">Prestige, Butterfly & more</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">Up to 70% Off</p>
+                </div>
+                
+                <div style="margin: 10px; width: 450px; background-color: #f5f5f5; border-radius: 10px;">
+                    <img src="https://rukminim1.flixcart.com/image/1024/1024/xif0q/shopsy-pet-house/7/r/3/double-door-heavy-duty-folding-metal-kennel-for-small-dogs-and-original-imah25qqhbdxpjzp.jpeg?q=90" height="200px" style="margin-left: 160px;">
+                    <p style="font-family: sans-serif;">from top brands</p>
+                    <p style="font-family: sans-serif; font-weight: bold;">From ₹99</p>
+                </div>           
+            </div>
+            </div>
+        </div><br>
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/salwar-kurta-dupatta/f/v/q/s-cade-no-4160-samiksha-textile-original-imahkjz6bzkwb3qh.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 10px; color: #868686;"><span style="color: black;">Sanmilksha Textile</span> Printed Kurta, Pala...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">2,999</span> <span style="font-weight: bold;">₹693</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/watch/i/f/o/1-arabic-black-zengee-men-original-imahkata5ffphpqg.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 10px; color: #868686;"><span style="color: black;">ZENGEE</span> Black Minimalist Watch with...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">999</span> <span style="font-weight: bold;">₹216</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/jfwuz680/shoe-tree/j/a/v/slspst003-ezey-original-imaf48sgghx7rwe3.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 15px; color: #868686;">Ezey Shop Shee Tree</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">617</span> <span style="font-weight: bold;">₹280</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/salwar-kurta-dupatta/t/3/o/l-yellow-anarkali-3p-oumad-original-imah82n6fprwexkg.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">Oumad</span> Printed Kurta, Palazoo & Dup...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">2,499</span> <span style="font-weight: bold;">₹630</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/mobile/x/b/u/-original-imahadxg2fazkzub.jpeg?q=90" height="250px" width="200px" style="padding-top: 40px; border-radius: 10px; margin-top: -30px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Google</span> Pixel 9A (Obsisian, 256GB)</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">49,999</span> <span style="font-weight: bold;">₹39,999</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/mobile/l/w/0/-original-imahfkx4pbdh5pff.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 8px; color: #868686;"><span style="color: black;">vivo</span> T4 Lite 5G Charger in the Box (p...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">14,999</span> <span style="font-weight: bold;">₹12,999</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/watch/c/v/s/-original-imahfszdx9mssjtr.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Fastrack</span> Fastrack All Nigher Multifu...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">5,195</span> <span style="font-weight: bold;">₹3,271</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/ethnic-set/p/3/e/xxl-samaira-orange-nm-nermosa-original-imahkxswbxd4gczv.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">Nermosa</span> Women Pure Silk Kurta Pan...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">2,999</span> <span style="font-weight: bold;">₹731</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/mobile/f/k/e/-original-imahbfd4zqn9zazz.jpeg?q=90" height="250px" width="200px" style="padding-top: 40px; border-radius: 10px; margin-top: -30px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">OPPO</span> K13 5G with 7000mAh and 80...</p>
+                <p style="margin-top: -3px;"> <span style="font-weight: bold;">₹22,999</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/watch/1/g/3/-original-imahfwzyyhcxqvph.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 5px; color: #868686;"><span style="color: black;">TIMEX</span> Green Dial Analog Watch - Fo...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">3,795</span> <span style="font-weight: bold;">₹2,089</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/ethnic-set/b/9/r/xl-ethnic-set-d-k-w-original-imah2vxgx5kcvhup.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">ROBOLOX</span> Women Pure Cotton Kurta...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">2,999</span> <span style="font-weight: bold;">₹693</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2560/2560/xif0q/cases-covers/back-cover/g/f/l/back-cover-for-apple-iphone-13-doubledicestore-original-imahehhvuhzb4dur.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">Doubledicestore</span> Back Cover for App..</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">999</span> <span style="font-weight: bold;">₹172</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/watch/x/3/l/-original-imahg62zutb2fhyy.jpeg?q=90" height="250px" width="200px" style="padding-top: 10px; border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Titan</span> Titan Karishma Blue Dial Silver...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">3,795</span> <span style="font-weight: bold;">₹2,731</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/shoe-spray/m/w/x/200-shoe-sneaker-cleaner-for-white-shoes-foam-sneaker-cleaning-original-imahcgg784szmqzk.jpeg?q=90" height="250px" width="200px"  style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 5px; color: #868686;"><span style="color: black;">VRPRIME</span> Foam Sneaker Cleaning Kit...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">999</span> <span style="font-weight: bold;">₹156</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/cases-covers/back-cover/0/f/g/vivo-t2x-5g-doubledicestore-original-imahgp379psavfr6.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Doubledicestore</span> Back Cover for vivo...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">999</span> <span style="font-weight: bold;">₹156</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/watch/b/3/n/-original-imahg62ufjzrgxfv.jpeg?q=90" height="250px" width="200px">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">Titan</span> Titan Minimals with Date Black..</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">4,245</span> <span style="font-weight: bold;">₹3,055</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/cases-covers/back-cover/k/z/x/ip-13-infinite-case-original-imah2fd7zz8pb8up.jpeg?q=90" height="250px" width="200px" style="padding-top: 40px; border-radius: 10px; margin-top: -30px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Socaso</span> Black Cover for Apple iPhone...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">8,999</span> <span style="font-weight: bold;">₹182</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/ethnic-set/q/3/p/xl-150-flower-kurta-pant-set-bkapparels-original-imahg9zmzekbghyq.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 5px; color: #868686;"><span style="color: black;">BKApparels</span> Women Pure Cotton Kur...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">2,499</span> <span style="font-weight: bold;">₹465</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/cases-covers/back-cover/j/i/w/k-moto-edge50fusion-bl-kasemast-original-imah4e8ktwb4zbdq.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">KaseMast</span> Back Cover for Moto Edge...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">899</span> <span style="font-weight: bold;">₹255</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/cases-covers/back-cover/w/8/1/t4x-black-slider-doubledicestore-original-imaheme3c9h5karj.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">Doubledicestore</span> Back Cover for vivo...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">999</span> <span style="font-weight: bold;">₹266</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/shoe-spray/h/w/b/100-foot-shoe-spray-prevents-strong-odor-anti-bacterial-skin-original-imah57v6g998guyg.jpeg?q=90" height="250px" width="200px" style="padding-top: 40px; border-radius: 10px; margin-top: -40px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Mannlich</span> Foot & Shoe Spray | Preven...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">399</span> <span style="font-weight: bold;">₹227</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/cases-covers/back-cover/b/n/b/back-cover-for-apple-iphone-13-doubledicestore-original-imah7n89sxrtzp9h.jpeg?q=90" height="250" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 5px; color: #868686;"><span style="color: black;">Doubledicestore</span> Back Cover for App...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">999</span> <span style="font-weight: bold;">₹189</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/brush-duster-shiner/l/v/8/150-quick-shoe-cleaning-kit-with-shoe-foam-cleaner-1-shoe-care-original-imahd8yv7xxqphkj.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">SNEAKARE</span> Quick Cleaning Foam Cle...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">399</span> <span style="font-weight: bold;">₹398</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/shoe/q/s/p/-original-imah7yz53x4grqs5.jpeg?q=90" height="250px" width="200px">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">RGY</span> Shoes For Men Stylish Comfort...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">3,999</span> <span style="font-weight: bold;">₹1,314</span></p>
+            </div>&nbsp;&nbsp;
+        </div><br>
+
+
+        <div style="display: flex; margin-left: 30px;">
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/ethnic-set/c/q/v/s-gul497pc3lgtpurple-gulmohar-jaipur-original-imahfjk3htchqyp7.jpeg?q=90" height="250px" width="200px" style="padding-top: 40px; border-radius: 10px; margin-top: -40px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Gulmohar Jaipur</span> Women Pure Cotto...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">3,599</span> <span style="font-weight: bold;">₹1,357</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/ethnic-set/i/x/n/-original-imahf785akbeuknh.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 5px; color: #868686;"><span style="color: black;">Gulmohar Jaipur</span> Women Pure Cotto...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">3,599</span> <span style="font-weight: bold;">₹1,388</span></p>
+            </div>&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+            <div style="background-color: #f1f3f6; padding: 10px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/salwar-kurta-dupatta/u/i/7/xxl-ktr-133-roxworld-original-imah7czyxuqznznx.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 12px; color: #868686;"><span style="color: black;">Roxworld</span> Printed PartyWear Anarkali...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through;">2,599</span> <span style="font-weight: bold;">₹644</span></p>
+            </div>&nbsp;&nbsp;
+            <div style="background-color: #f1f3f6; padding: 10px; margin-left: 10px; padding-top: 15px; padding-top: 20px; border-radius: 10px;">
+                <img src="https://rukminim1.flixcart.com/image/2730/2730/xif0q/ethnic-set/n/k/h/xs-mds-jodaa-original-imahkz6vyyfhxkc9.jpeg?q=90" height="250px" width="200px" style="border-radius: 10px;">
+                <p style="font-size: 11px; font-family: sans-serif; margin-top: 3px; padding-top: 60px; color: #868686; margin-top: -50px;"><span style="color: black;">JODAA</span> Women Viscose Rayon Kurta...</p>
+                <p style="margin-top: -3px;"><span style="text-decoration: line-through; color: #868686;">2,999</span> <span style="font-weight: bold;">₹654</span></p>
+            </div>&nbsp;&nbsp;
+        </div>
+
+
+
+        <div style="margin-top: 20px; background-color: #212121; color: white; font-family: sans-serif; font-size: 12px; font-weight: bold; padding-top: 20px; padding-left: 20px; margin-left: -7px;"">
+        <div style="display: flex;">
+            <div>
+                <p style="color: #777676;">ABOUT</p>
+                <p class="underline">Contact Us</p>
+                <p class="underline">About Us</p>
+                <p class="underline">Careers</p>
+                <p class="underline">Flipkart Stories</p>
+                <p class="underline">Press</p>
+                <p class="underline">Corporate Information</p>
+            </div>
+            <div style="padding-left: 200px;">
+                <p style="color: #777676;">GROUP COMPANIES</p>
+                <p class="underline">Myntra</p>
+                <p class="underline">Cleartrip</p>
+                <p class="underline">Shopsy</p>
+            </div>
+            <div style="padding-left: 220px;">
+                <p style="color: #777676;">HELP</p>
+                <p class="underline">Payments</p>
+                <p class="underline">Shipping</p>
+                <p class="underline">Cancellarion & Returns</p>
+                <p class="underline">FAQ</p>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div>
+                <p style="color: #777676;">CONSUMER POLICY</p>
+                <p class="underline">Cancellation & Returns</p>
+                <p class="underline">Terms Of Use</p>
+                <p class="underline">Security</p>
+                <p class="underline">Privact</p>
+                <p class="underline">Sitemap</p>
+                <p class="underline">Grievance Redressal</p>
+                <p class="underline">EPR Compliance</p>
+                <p class="underline">FSSAI Food Safety Connect App</p>
+            </div>
+            <div style="padding-left: 150px;">
+                <p style="color: #777676;">Mail Us:</p>
+                <p class="underline">Flipkart Internet Private Limited,</p>
+                <p class="underline">Buildings Alyssa, Begonia &</p>
+                <p class="underline">Clove Embassy Tech Village,</p>
+                <p class="underline">Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p class="underline">Bengaluru, 560103,</p>
+                <p class="underline">Karnataka, India</p>
+            </div>
+            <div style="padding-left: 70px;">
+                <p style="color: #777676;">Registered Office Address:</p>
+                <p class="underline">Flipkart Internet Private Limited,</p>
+                <p class="underline">Buildings Alyssa, Begonia &</p>
+                <p class="underline">Clove Embassy Tech Village,</p>
+                <p class="underline">Outer Ring Road, Devarabeesanahalli Village,</p>
+                <p class="underline">Bengaluru, 560103,</p>
+                <p class="underline">Karnataka, India</p>
+                <p class="underline">CIN : U51109KA2012PTC066107</p>
+                <p class="underline">Telephone: <span style="color: #274ea7;">044-45614700</span> / <span style="color: #274ea7;">044-67415800</span></p>
+            </div>
+        </div>
+            <div style="padding-left: 330px; padding-bottom: 30px;">
+                <p style="color: #777676;">Social:</p>
+                <div>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjUiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNSAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTEyLjkzMzEgMjFDMTcuOTAzNyAyMSAyMS45MzMxIDE2Ljk3MDYgMjEuOTMzMSAxMkMyMS45MzMxIDcuMDI5NDQgMTcuOTAzNyAzIDEyLjkzMzEgM0M3Ljk2MjU0IDMgMy45MzMxMSA3LjAyOTQ0IDMuOTMzMTEgMTJDMy45MzMxMSAxNi45NzA2IDcuOTYyNTQgMjEgMTIuOTMzMSAyMVoiIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMS41IiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS1saW5lam9pbj0icm91bmQiLz4KPHBhdGggZD0iTTE2LjY4MzEgOC4yNUgxNS4xODMxQzE0LjU4NjQgOC4yNSAxNC4wMTQxIDguNDg3MDUgMTMuNTkyMSA4LjkwOTAxQzEzLjE3MDIgOS4zMzA5NyAxMi45MzMxIDkuOTAzMjYgMTIuOTMzMSAxMC41VjIxIiBzdHJva2U9IndoaXRlIiBzdHJva2Utd2lkdGg9IjEuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIi8+CjxwYXRoIGQ9Ik05LjkzMzExIDEzLjVIMTUuOTMzMSIgc3Ryb2tlPSJ3aGl0ZSIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIgc3Ryb2tlLWxpbmVqb2luPSJyb3VuZCIvPgo8L3N2Zz4K" height="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE4M18yMCkiPgo8cGF0aCBkPSJNMTMuNTQzNiAxMC42MTc5TDIwLjA5NzEgM0gxOC41NDQxTDEyLjg1MzcgOS42MTQ0OEw4LjMwODg3IDNIMy4wNjY4OUw5LjkzOTY0IDEzLjAwMjNMMy4wNjY4OSAyMC45OTA4SDQuNjE5OTRMMTAuNjI5MSAxNC4wMDU2TDE1LjQyODggMjAuOTkwOEgyMC42NzA4TDEzLjU0MzIgMTAuNjE3OUgxMy41NDM2Wk0xMS40MTY1IDEzLjA5MDRMMTAuNzIwMiAxMi4wOTQ0TDUuMTc5NTMgNC4xNjkxMUg3LjU2NDkxTDEyLjAzNjMgMTAuNTY1MUwxMi43MzI2IDExLjU2MTFMMTguNTQ0OCAxOS44NzQ4SDE2LjE1OTVMMTEuNDE2NSAxMy4wOTA4VjEzLjA5MDRaIiBmaWxsPSJ3aGl0ZSIvPgo8L2c+CjxkZWZzPgo8Y2xpcFBhdGggaWQ9ImNsaXAwXzE4M18yMCI+CjxyZWN0IHg9IjMuMDY2ODkiIHk9IjMiIHdpZHRoPSIxNy42MDM5IiBoZWlnaHQ9IjE4IiByeD0iMC4yIiBmaWxsPSJ3aGl0ZSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=" height="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/YoutubeLogo-958b78.svg" height="25px">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/InstagramLogo-854a2c.svg" height="20px">
+                </div>
+            </div>
+            <div style="height: 1px; width: auto; background-color: gray; margin-left: -20px;"></div>
+            <div style="display: flex;">
+                <div style="padding: 15px; padding-left: 2px;">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/sell-image-0489fc.svg" height="14px" style="display: inline;">
+                    <p style="padding-left: 25px; margin-top: -18px;">Become a Seller</p>
+                </div>
+                <div style="padding-left: 13px;">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/advertise-image-e4b62a.svg" height="14px" style="display: inline; padding-top: 15px;">
+                    <p style="padding-left: 25px; margin-top: -18px;">Advertise</p>
+                </div>
+                <div style="padding-left: 20px;">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/gift-cards-image-6947a9.svg" height="14px" style="display: inline; padding-top: 15px;">
+                    <p style="padding-left: 25px; margin-top: -18px;">Gift Cards</p>
+                </div>
+                <div style="padding-left: 20px;">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/help-centre-image-b9e23c.svg" height="14px" style="display: inline; padding-top: 15px;">
+                    <p style="padding-left: 25px; margin-top: -18px;">Help Center</p>
+                </div>
+                <div style="padding-left: 20px; padding-top: 3px;">
+                    <p style="padding-left: 10px;">©2007-2026 Flipkart.com</p>
+                </div>
+                <div style="margin-top: 15px; margin-left: 10px;">
+                    <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/payment-method-69e7ec.svg" height="16px">
+                </div>
+            </div>
+        </div>
+        <button class="refresh">Refresh Page</button>
+    </body>
+    </html>
